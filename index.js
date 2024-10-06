@@ -34,6 +34,8 @@ function soundsnare()
     var a7=new Audio("sounds/snare.mp3");
     a7.play();
 }
+
+//plays the corresponding sound when the button is click
 var buttons=document.querySelectorAll("button");
 buttons[0].addEventListener("click",soundtom1);
 buttons[1].addEventListener("click",soundtom2);
@@ -43,3 +45,23 @@ buttons[4].addEventListener("click",soundsnare);
 buttons[5].addEventListener("click",soundcrash);
 buttons[6].addEventListener("click",soundkick);
 
+
+//plays the corresponding sound when the key is pressed
+document.addEventListener("keypress",function(event)
+{
+    if (event.key=='w')
+        soundtom1();
+    else if(event.key=='a')
+        soundtom2();
+    else if(event.key=='s')
+        soundtom3();
+    else if(event.key=='d')
+        soundtom4();
+    else if(event.key=='j')
+        soundsnare();
+    else if(event.key=='k')
+        soundcrash();
+    else if(event.key=='l')
+        soundkick();
+
+});
