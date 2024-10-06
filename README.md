@@ -48,7 +48,7 @@ Setup and Installation
 Usage
 
 
-1. Press the corresponding keyboard keys (w, a, s, d, j, k, l) to play drums or click the instrument buttons(crash,kixk,snate,toms) on the screen to play drums.
+1. Press the corresponding keyboard keys (w, a, s, d, j, k, l) to play drums or click the instrument buttons(crash,kick,snare,toms) on the screen to play drums.
 2. Enjoy playing!
 
 
